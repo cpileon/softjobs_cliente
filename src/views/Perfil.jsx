@@ -8,7 +8,7 @@ export default function Home() {
   const [usuario, setUsuarioLocal] = useState({});
 
   const getUsuarioData = async () => {
-    const urlServer = "https://softjobstest.onrender.com";
+    const urlServer = "https://deploy-test-nasv.onrender.com";
     const endpoint = "/usuarios";
     const token = localStorage.getItem("token");
 

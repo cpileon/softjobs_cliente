@@ -16,7 +16,7 @@ export default function RegistroForm() {
   };
 
   const iniciarSesion = async () => {
-    const urlServer = "https://softjobstest.onrender.com";
+    const urlServer = "https://deploy-test-nasv.onrender.com";
     const endpoint = "/login";
     const { email, password } = usuario;
     try {
